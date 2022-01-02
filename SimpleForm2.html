@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SimpleForm2</title>
+    <style>
+        .col1{
+            margin: 10px;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+<form action="SimpleForm2.html" method="post">
+    <div class="col1" style="background-color: yellow">
+        <div class="col2" style="background-color: aquamarine">
+            <h1 style="color: blue">ĐĂNG KÝ HỌC VIÊN</h1>
+        </div>
+        <label for="name">Họ và tên</label>
+        <input type="text" id="name" name="name" placeholder="Nhập họ tên"> <br>
+        <label for="birth">Ngày sinh</label>
+        <input type="text" id="birth" name="birth" placeholder="Nhập ngày sinh"><br>
+        <div>
+            <label for="gender">Giới tính</label>
+            <input type="radio" id="gender1" name="gender" checked value="male"> Nam
+            <input type="radio" id="gender2" name="gender" value="female"> Nữ <br>
+        </div>
+        <label for="address">Địa chỉ</label>
+        <textarea name="address" id="address" cols="40" rows="2"></textarea><br>
+        <label for="grade">Lớp</label>
+        <select name="grade" id="grade">
+            <option value="">-Chọn lớp-</option>
+        </select><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Nhập email của bạn"><br>
+        <label for="phone">Điện thoại</label>
+        <input type="number" id="phone" name="phone" placeholder="Nhập số điện thoại"><br>
+        <input type="submit" value="signup">
+        <input type="reset" value="reset">
+
+    </div>
+</form>
+</body>
+</html>

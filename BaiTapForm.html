@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sở thích của bạn</title>
+    <style>
+        .col1{
+            width: 450px;
+            border: 10px solid aqua;
+            padding: 10px;
+            margin: 10px;
+            ;
+        }
+        .col2
+        {
+            background-color: red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<form action="BaiTapForm.html" method="get">
+    <div class="col1">
+        <div class="col2">
+            <h1 style="color: white">Sở thích của bạn</h1>
+        </div>
+        <div>
+            <span style="color: blue"> Họ và tên <input type="text" name="yourname" placeholder="What's your name?"></span><br>
+            <span style="color: blue">Email <input type="email" name="email" placeholder="What's your email?" ></span><br>
+            <span style="color: blue">Sở thích
+                <div>
+                <label style="color: orange"> <input type="checkbox" name="hobby" value="sport"/>Thể thao</label>
+                <label style="color: orange"> <input type="checkbox" name="hobby" value="music"/>Nghe nhạc</label>
+                <label style="color: orange"> <input type="checkbox" name="hobby" value="read"/>Đọc sách</label><br>
+                <label style="color: orange"> <input type="checkbox" name="hobby" value="wevsearch"/>Lướt web</label>
+                <label style="color: orange"> <input type="checkbox" name="hobby" value="playgame"/>Chơi game</label>
+                <label style="color: orange"> <input type="checkbox" name="hobby" value="film"/>Điện ảnh</label><br>
+                <label style="color: orange"> <input type="checkbox" name="hobby" value="travel"/>Du lịch</label><br>
+                    <input type="submit" value="Gửi thông tin" >
+                <input type="reset" value="Nhập lại">
+                </div>
+            </span>
+        </div>
+    </div>
+</form>
+</body>
+</html>
